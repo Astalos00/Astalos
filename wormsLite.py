@@ -3,11 +3,10 @@ from bazooka import *
 from roquette import *
 
 def create_roquette():
-    can.delete(r1)
     r1 = Roquette(can,b1.x2,b1.y2, 'red')
 
 def delete_roquette():
-    can.delete(r1)
+    destroy(self.r)
 
 # Code pour tester sommairement la classe Bazouka :
 f = Tk()
